@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>e*some Furniture</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
+    
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+    <!-- jquerry -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <!-- fullpage -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.10/fullpage.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.10/fullpage.min.js"></script>
+
+    <!-- lightbox2 -->
+    <script src="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/js/lightbox.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/lightbox2@2.11.4/dist/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- typeit -->
+    <script src="https://cdn.jsdelivr.net/npm/typeit@8.8.3/dist/index.umd.min.js"></script>
+
+
+    <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <a id="logo" href=""><h1>e*some</h1></a>
+        <nav>
+            <ul class="menu">
+                <li class="menu-item selected"><a href="">Featured</a></li>
+                <li class="devider">|</li>
+                <li class="menu-item"><a href="">Category</a></li>
+                <li class="devider">|</li>
+                <li class="menu-item"><a href="">Accounts</a></li>
+                <li class="devider">|</li>
+                <li class="menu-item"><a href="">Contact</a></li>
+            </ul>
+        </nav>
+        <div id="mobile-menu">
+            <img src="assets/images/menu-svgrepo-com.svg" alt="menu">
+        </div>
+        <div id="cart">
+            <img src="assets/images/cart-shopping-svgrepo-com.svg" alt="cart">
+        </div>
+    </header>
+
+    <main id="fullpage">
+        <section id="hero" class="fullpage-section">
+            <article>
+                <h2 id="hero-copy-head">Discover Elegance</h2>
+                <h3 id="hero-copy-sub">Explore Our Exquisite Furniture Collections</h3>
+                <p id="hero-copy-body">Discover a harmonious blend of elegance and 
+                    functionality with our handcrafted furniture collections. 
+                    From striking centerpieces to subtle accents, our designs are 
+                    crafted to elevate every corner of your home. Explore timeless 
+                    sophistication and modern versatility in our diverse range. 
+                    Let us inspire your vision of home, where luxury meets comfort 
+                    effortlessly. Experience the art of living beautifully with our 
+                    exquisite furniture selections today.
+                </p>
+                <button type="button">more</button>
+            </article>
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide slide1"></div>
+                    <div class="swiper-slide slide2"></div>
+                    <div class="swiper-slide slide3"></div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+                <!-- If we need scrollbar 
+                <div class="swiper-scrollbar"></div>-->
+            </div>
+        </section>
+        <section id="sets" class="fullpage-section">
+            <div class="container">
+                <figure>
+                    <a href="assets/images/sets1.jpg" data-lightbox="image-1">
+                        <div class="image-container">
+                            <img src="assets/images/sets1.jpg">
+                        </div>
+                    </a>
+                    <a href="assets/images/sets2.jpg" data-lightbox="image-1">
+                        <div class="image-container">
+                            <img src="assets/images/sets2.jpg">
+                        </div>
+                    </a>
+                    <a href="assets/images/sets3.jpg" data-lightbox="image-1">
+                        <div class="image-container">
+                            <img src="assets/images/sets3.jpg">
+                        </div>
+                    </a>
+                    <a href="assets/images/sets4.jpg" data-lightbox="image-1">
+                        <div class="image-container">
+                            <img src="assets/images/sets4.jpg">
+                        </div>
+                    </a>
+                    <a href="assets/images/sets5.jpg" data-lightbox="image-1">
+                        <div class="image-container">
+                            <img src="assets/images/sets5.jpg">
+                        </div>
+                    </a>
+                    <a href="assets/images/sets6.jpg" data-lightbox="image-1">
+                        <div class="image-container">
+                            <img src="assets/images/sets6.jpg">
+                        </div>
+                    </a>
+                </figure>
+                <article>
+                    <h2>Sets</h2>
+                    <h3>Harmonize Your Home : Explore Curated Furniture Sets for Effortless Style.
+                        Browse our Thoughtfully Coordinated Furniture Sets for Seamless Interior Design Solutions.
+                    </h3>
+                </article>
+            </div>
+        </section>
+        <section id="chairs" class="fullpage-section">
+            <div class="container">
+                <article>
+                    <h2>Chairs</h2>
+                    <h3>Indulge in Comfort and Style: Explore Our Diverse Selection of Chairs, 
+                        From Classic Elegance to Modern Sophistication, Perfect for Every Space in Your Home.
+                    </h3>
+                </article>
+                <figure>
+                    <a href="assets/images/chairs1.jpg" data-lightbox="image-2">
+                        <div class="image-container">
+                            <img src="assets/images/chairs1.jpg">
+                        </div>
+                    </a>
+                    <a href="assets/images/chairs2.jpg" data-lightbox="image-2">
+                        <div class="image-container">
+                            <img src="assets/images/chairs2.jpg">
+                        </div>
+                    </a>
+                    <a href="assets/images/chairs3.jpg" data-lightbox="image-2">
+                        <div class="image-container">
+                            <img src="assets/images/chairs3.jpg">
+                        </div>
+                    </a>
+                    <a href="assets/images/chairs4.jpg" data-lightbox="image-2">
+                        <div class="image-container">
+                            <img src="assets/images/chairs4.jpg">
+                        </div>
+                    </a>
+                    <a href="assets/images/chairs5.jpg" data-lightbox="image-2">
+                        <div class="image-container">
+                            <img src="assets/images/chairs5.jpg">
+                        </div>
+                    </a>
+                    <a href="assets/images/chairs6.jpg" data-lightbox="image-2">
+                        <div class="image-container">
+                            <img src="assets/images/chairs6.jpg">
+                        </div>
+                    </a>
+                </figure>
+            </div>
+        </section>
+        <section id="sofas" class="fullpage-section">
+            <div class="container">
+                <figure>
+                    <a href="assets/images/sofas1.jpg" data-lightbox="image-3">
+                        <div class="image-container">
+                            <img src="assets/images/sofas1.jpg">
+                        </div>
+                    </a>
+                    <a href="assets/images/sofas2.jpg" data-lightbox="image-3">
+                        <div class="image-container">
+                            <img src="assets/images/sofas2.jpg">
+                        </div>
+                    </a>
+                    <a href="assets/images/sofas3.jpg" data-lightbox="image-3">
+                        <div class="image-container">
+                            <img src="assets/images/sofas3.jpg">
+                        </div>
+                    </a>
+                    <a href="assets/images/sofas4.jpg" data-lightbox="image-3">
+                        <div class="image-container">
+                            <img src="assets/images/sofas4.jpg">
+                        </div>
+                    </a>
+                    <a href="assets/images/sofas5.jpg" data-lightbox="image-3">
+                        <div class="image-container">
+                            <img src="assets/images/sofas5.jpg">
+                        </div>
+                    </a>
+                    <a href="assets/images/sofas6.jpg" data-lightbox="image-3">
+                        <div class="image-container">
+                            <img src="assets/images/sofas6.jpg">
+                        </div>
+                    </a>
+                </figure>
+                <article>
+                    <h2>Sofas</h2>
+                    <h3>Curl Up in Comfort: Dive into Our Range of Luxurious Sofas, 
+                        Designed to Elevate Your Living Space with Unmatched Style and Coziness.
+                    </h3>
+                </article>
+            </div>
+        </section>
+    </main>
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
